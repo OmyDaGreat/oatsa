@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.kobweb.application)
 }
 
-group = "xyz.malefic.singlepage"
+group = "xyz.malefic.oatsa"
 version = "1.0-SNAPSHOT"
 
 kobweb {
@@ -18,7 +18,7 @@ kobweb {
 }
 
 kotlin {
-    configAsKobwebApplication("singlepage")
+    configAsKobwebApplication("oatsa")
 
     sourceSets {
         jsMain.dependencies {
